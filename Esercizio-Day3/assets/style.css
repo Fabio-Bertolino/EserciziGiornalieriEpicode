@@ -1,0 +1,67 @@
+body {
+    margin-left: 0;
+    margin-right: 0
+}
+
+#page {
+    margin-left: 25em;
+    margin-right: 25em;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#branch {
+    margin-top: 1em;
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: orange ;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    color: cadetblue;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding-top: 1.3em;
+    padding-bottom: 0.8em;
+}
+
+#risultato {
+    display: flex;
+    justify-content: center;
+}
+
+#freatured {
+    border-left: 1px;
+    border-left-style: solid;
+    border-left-color: orange ;
+    padding-left: 0.8em;
+}
+
+#freTitle {
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+}
+
+.linkColor {
+    color: cadetblue;
+}
+
+.sections {
+    font-size: 1.5em;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: cadetblue ;
+    padding-bottom: 2px;
+}
+
+.steps {
+    font-weight: bold;
+}
