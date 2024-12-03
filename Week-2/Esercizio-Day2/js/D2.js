@@ -84,7 +84,7 @@ console.log("********************************************************");
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log("ESERCIZIO 6");
 let Cart2 = 80;
-// let sconto = 0.8 (meglio usare variabile perchè più facile da modificare.)
+// let sconto = 0.8 (Meglio usare variabile perchè più facile da modificare.)
 let totalShoppingCart2;
 if(cart > 50) {
   totalShoppingCart2 = cart2 * 0.8 /*sconto*/;

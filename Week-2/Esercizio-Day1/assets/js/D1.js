@@ -13,14 +13,29 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 /* I datatype descrivono i differenti tipi di dati che verranno registrati dalle variabili. Di base ne esistono 5 tipi: numerici, stringhe di
-testo, valori booleani (Vero o Falso), valori null (assenza di valore), e valori undefined (valori non assegnati).
+testo, valori booleani (Vero o Falso), valori null (assenza di valore), e valori undefined (valori non assegnati).*/
+console.log("Esercizio 1")
+
+console.log("***********************************************")
+
+console.log("I principali DataType in Javascript sono: ");
+console.log("String - Number - Boolean");
+console.log("Il tipo di DataType 'String'");
+console.log("Il tipo di DataType 'Number'");
+console.log("Il tipo di DataType 'Boolean'");
+console.log("Il tipo di DataType 'Null'");
+console.log("Il tipo di DataType 'Undefined'");
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Esercizio 2")
+
 let myName = "Fabio";
+console.log("Il mio nome è " + Fabio);
+console.log("***********************************************")
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -44,10 +59,8 @@ let x = 12;
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-myName = "Bertolino";
-console.log(myName);
-const Name = "Fabio";
-//Name = "Marco";
+//const myName = "Fabio";
+console.log("cannot redeclare block-scoped variable 'myName' -");
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
